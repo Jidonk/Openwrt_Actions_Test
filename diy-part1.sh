@@ -14,6 +14,6 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
-git clone https://github.com/animegasan/luci-app-wolplus.git package/wolplus
+#echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
+#git clone https://github.com/animegasan/luci-app-wolplus.git package/wolplus
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
